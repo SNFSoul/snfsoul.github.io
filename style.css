@@ -40,7 +40,6 @@ body{
     z-index:-10;
 }
 
-/* ---------------- NAV ---------------- */
 
 nav{
     position:fixed;
@@ -79,7 +78,6 @@ nav a:hover{
     color:#8b5cf6;
 }
 
-/* ---------------- HERO ---------------- */
 
 .hero{
     min-height:100vh;
@@ -161,7 +159,6 @@ nav a:hover{
     transform:translateY(-2px);
 }
 
-/* ---------------- SECTIONS ---------------- */
 
 section{
     padding:120px 10%;
@@ -178,7 +175,6 @@ p{
     font-size:clamp(16px,2vw,18px);
 }
 
-/* ---------------- PROJECTS ---------------- */
 
 .cards{
     display:grid;
@@ -204,7 +200,6 @@ p{
     margin-bottom:20px;
 }
 
-/* ---------------- SKILLS ---------------- */
 
 .skillGrid{
     display:grid;
@@ -224,7 +219,6 @@ p{
     background:#8b5cf6;
 }
 
-/* ---------------- CONTACT ---------------- */
 
 .contact-section{
     padding:100px 20px;
@@ -321,7 +315,6 @@ p{
     border:1px solid rgba(0,255,120,.3);
 }
 
-/* ---------------- TABLETS ---------------- */
 
 @media (max-width:768px){
 
@@ -365,7 +358,6 @@ p{
 
 }
 
-/* ---------------- PHONES ---------------- */
 
 @media (max-width:480px){
 
