@@ -320,14 +320,12 @@ p{
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* grid */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
 
-/* card */
 .contact-card {
   display: flex;
   align-items: center;
