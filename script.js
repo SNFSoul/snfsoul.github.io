@@ -19,6 +19,21 @@ window.addEventListener("load", function () {
 
 });
 
+document.querySelectorAll(".toggleCode").forEach(function (btn) {
+
+    btn.addEventListener("click", function () {
+
+        const block = btn.closest(".codeBlock");
+        const isExpanded = block.classList.toggle("expanded");
+
+        btn.innerHTML = isExpanded
+            ? 'Hide code <span class="arrow">▾</span>'
+            : 'Show full code <span class="arrow">▾</span>';
+
+    });
+
+});
+
 window.addEventListener("scroll", function(){
 
     const nav = document.querySelector("nav");
